@@ -24,7 +24,7 @@
 
         <div id="principal"><!--Início principal-->
 
-            <div id="container"><!--Início principal-->
+            <div id="container"><!--Início container-->
 
                 <header><!--Início header-->
                     <h1 id="logo"><a href="">Logo</a></h1>
@@ -42,9 +42,112 @@
                     </ul>
                 </nav><!--Fim nav-->
 
-            </div><!--Início principal-->
+            </div><!--Fim conatiner-->
+
+            <div id="conteudos"><!--Início conteudos-->
+
+                <div id="conteudo-esquerda"><!--Início conteudo-esquerda-->
+
+                    <section>
+                        <img src="imagens/museu.png" alt="foto do Museu Nacional do RJ">
+                    </section>
+
+                    <section id="postagens"><!--Início postagens-->
+
+                        <article class="postagem">
+                            <h3>Video: Conheca o Museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=684eKsqH6W143j4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </article>
+
+                        <article class="postagem">
+                            <h3>Mapa: Encontre o museu</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064457500783!2d-43.229103825368526!3d-22.905755037832883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1693835000854!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+
+                        <article class="postagem">
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li><a href="">Os assustadores insetos</a></li>
+                                <li><a href="">O crânio de Luiza, a mulher mais antiga do Brasil</a></li>
+                                <li><a href="">Preguiça gigantee tigre-dentes-de-sabre</a></li>
+                                <li><a href="">Plantas do Brasil Central</a></li>
+                                <li><a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                                <li><a href="">Arte com dinossauros - Paleoarte</a></li>
+                                <li><a href="">Veja mais</a></li>
+                            </ul>
+                        </article>
+
+                        <article class="postagem">
+                            <h3>200 anos de história</h3>
+                            <p>Numa ponta que avançava sobre o mar,
+                                posteriomente conhecida como Ponta do
+                                Calabouço, entre as praias de Piaçaba e Santa Luzia,
+                                no centro histórico do Rio de Janeiro, os
+                                portugueses construiram em 1603 a Fortaleza de
+                                Santiago, origem do conjunto arquitetônico que hoje
+                                abriga o Museu Histórico Nacional
+                            </p>
+                            <a href="">Leia mais</a>
+                        </article>
+
+                    </section><!--Fim postagens-->
+
+                </div><!--Início conteudo-esquerda-->
+
+                <aside id="conteudo-direita"><!--Início conteudo-direira-->
+
+                    <section><!--Início depoimento-->
+                        <img src="imagens/depoimento.png" alt="Imagem de depoimento">
+                    </section><!--Fim depoimento-->
+
+                    <section id="visita"><!--Início visita-->
+
+                        <h4>Faça uma visita</h4>
+                        <form action="">
+                            
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="date" name="data" id="data" placeholder="dd/mm/" >
+
+                                <label for="pessoas">Pessoas</label>
+                                <input class="campo" type="number" id="pessoas" name="pessoas" value="1" max="100" style="width: 50px;">
+
+                                <input class="disponibilidade" type="submit" value="Verificar disponibilidade">
+
+                            </fieldset>
+
+                        </form>
+        
+                    </section><!--Fim visita-->
+
+                    <section id="galeria"><!--Início galeria-->
+
+                        <div id="fotos"><!--Início fotos-->
+
+                            <h4>Galeria de fotos</h4>
+
+                            <img src="imagens/imagem1.jpg" alt="">
+                            <img src="imagens/imagem3.jpg" alt="">
+                            <img src="imagens/imagem4.jpg" alt="">
+                            <img src="imagens/imagem5.jpg" alt="">
+
+                        </div><!--Fim fotos-->
+
+                    </section><!--Fim galeria-->
+
+                </aside><!--Fim conteudo-direita-->
+
+            </div><!--Início conteudos-->
+
+            <footer>
+                <p>Museu Nacional - Todos os direitos</p>
+            </footer>
 
         </div><!--Fim principal-->
+
+            
         
     </body>
 

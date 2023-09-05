@@ -1,39 +1,75 @@
+/* ---------------Formatação geral--------------------*/
+
 body{
     background: #f4f2ec url(../imagens/fundo.png) repeat-x;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
 }
 
-#container{
-    border: 1px solid red;
+h3{
+    color: #227115;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h4{
+    text-transform: uppercase;
+    color: #865212;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+input{
+    height: 20px;
+    width: 80px;
+    background-color: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+
+#principal{
     width: 1080px;
     margin: 0 auto;
 }
 
+/*--------------Formatação cabeçalho------------------*/
+
 header{
-    border: 1px solid red;
     padding: 15px 0;
     height: 55px;
 }
 
+header #logo{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background-image: url(../imagens/logo.png);
+    float: left;
+}
+/*Logo do museu*/
+
 nav ul{
-    border: 1px solid red;
     list-style: none;
     margin: 20px;
     float: right;
 }
+/*Lista dos links home, exposições, pesquisa..*/
 
 nav ul li{
     float: left;
 }
 
+/*Item da lista de links*/
+
 nav ul li a{
-    border: 1px solid red;
     display: block;
     margin-right: 25px;
     padding-bottom: 3px;
     text-transform: uppercase;
 }
-
+/*Links da lista*/
 
 a:link, a:visited, a:active{
     color: #af670a;
@@ -45,12 +81,74 @@ a:hover{
     border-bottom: 1px solid #535858;
 }
 
-#logo{
-    border: 1px solid red;
-    width: 248px;
-    height: 21px;
-    text-indent: -9999px;
-    display: block;
-    background-image: url(../imagens/logo.png);
+
+
+/*------------------Conteúdos------------------------------*/
+
+/*----------------Conteúdo-esquerda------------------------*/
+
+#conteudo-esquerda{
+    width: 710px;
     float: left;
+}
+
+.postagem{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+
+/*---------------Conteúdo-direita-------------------------*/
+
+#conteudo-direita{
+    width: 350px;
+    float: right;
+}
+
+legend{
+    display: none;
+}
+
+#visita{
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+#visita fieldset{
+    border: none;
+}
+
+#visita .campo{
+    border: 1px solid #ada484;
+}
+
+#visita .disponibilidade{
+    background-color: #9b9271;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+
+#galeria img{
+    width: 93px;
+    height: 93px;
+    float: left;
+    margin: 10px 0px 0px 20px;
+}
+
+#fotos{
+    padding: 17px 15px 17px 15px;
+}
+
+/*--------------Rodapé-------------------*/
+
+footer{
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background-image: url(../imagens/fundo-rodape.png) no-repeat top;
+    clear: both;
 }
